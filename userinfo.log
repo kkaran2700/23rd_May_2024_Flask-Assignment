@@ -1,0 +1,12 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.0.5:5005 - 2024-05-23 20:13:06,417 - INFO
+[33mPress CTRL+C to quit[0m - 2024-05-23 20:13:06,417 - INFO
+opening home page - 2024-05-23 20:13:37,335 - INFO
+127.0.0.1 - - [23/May/2024 20:13:37] "GET / HTTP/1.1" 200 - - 2024-05-23 20:13:37,401 - INFO
+127.0.0.1 - - [23/May/2024 20:13:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - - 2024-05-23 20:13:37,505 - INFO
+user_name is karan - 2024-05-23 20:13:59,581 - INFO
+e-mail is kanathalar@gmail.com - 2024-05-23 20:13:59,581 - INFO
+password is 1234567890 - 2024-05-23 20:13:59,593 - INFO
+127.0.0.1 - - [23/May/2024 20:13:59] "POST /register HTTP/1.1" 200 - - 2024-05-23 20:13:59,604 - INFO

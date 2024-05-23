@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item List</title>
+</head>
+<body>
+    <h1>Item List</h1>
+    <form action="/add" method="post">
+        <input type="text" name="name" placeholder="Enter item name">
+        <button type="submit">Add Item</button>
+    </form>
+    <ul>
+        {% for item in items %}
+            <li>
+                <form action="/update/{{ item.id }}" method="post">
+                    <input type="text" name="name" value="{{ item.name }}">
+                    <button type="submit">Update</button>
+                </form>
+                <a href="/delete/{{ item.id }}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.0.5:5005 - 2024-04-21 16:47:12,255 - INFO
+[33mPress CTRL+C to quit[0m - 2024-04-21 16:47:12,255 - INFO
+opening home page - 2024-04-21 16:47:22,013 - INFO
+192.168.0.5 - - [21/Apr/2024 16:47:22] "GET / HTTP/1.1" 200 - - 2024-04-21 16:47:22,017 - INFO
+user_name is karan kumar - 2024-04-21 16:47:38,381 - INFO
+user_name is karan@gmail.com - 2024-04-21 16:47:38,381 - INFO
+user_name is Karan@12345 - 2024-04-21 16:47:38,381 - INFO
+192.168.0.5 - - [21/Apr/2024 16:47:38] "POST /register HTTP/1.1" 200 - - 2024-04-21 16:47:38,382 - INFO
+user_name is karan kumar - 2024-04-21 16:48:19,089 - INFO
+user_name is karan@gmail.com - 2024-04-21 16:48:19,089 - INFO
+user_name is Karan@12345 - 2024-04-21 16:48:19,089 - INFO
+192.168.0.5 - - [21/Apr/2024 16:48:19] "POST /register HTTP/1.1" 200 - - 2024-04-21 16:48:19,089 - INFO
+192.168.0.5 - - [21/Apr/2024 16:48:23] "[31m[1mGET /register HTTP/1.1[0m" 405 - - 2024-04-21 16:48:23,600 - INFO
+opening home page - 2024-04-21 16:48:27,318 - INFO
+192.168.0.5 - - [21/Apr/2024 16:48:27] "GET / HTTP/1.1" 200 - - 2024-04-21 16:48:27,319 - INFO
+user_name is kiran - 2024-04-21 16:48:40,062 - INFO
+user_name is kiran@gmail.com - 2024-04-21 16:48:40,062 - INFO
+user_name is Kiran@12345 - 2024-04-21 16:48:40,062 - INFO
+192.168.0.5 - - [21/Apr/2024 16:48:40] "POST /register HTTP/1.1" 200 - - 2024-04-21 16:48:40,062 - INFO
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.0.5:5005 - 2024-04-21 16:49:26,651 - INFO
+[33mPress CTRL+C to quit[0m - 2024-04-21 16:49:26,651 - INFO
+opening home page - 2024-04-21 16:49:37,785 - INFO
+192.168.0.5 - - [21/Apr/2024 16:49:37] "GET / HTTP/1.1" 200 - - 2024-04-21 16:49:37,788 - INFO
+user_name is kanathala - 2024-04-21 16:49:53,694 - INFO
+e-mail is kanathala@gmail.com - 2024-04-21 16:49:53,694 - INFO
+password is Kanthala@12345 - 2024-04-21 16:49:53,694 - INFO
+192.168.0.5 - - [21/Apr/2024 16:49:53] "POST /register HTTP/1.1" 200 - - 2024-04-21 16:49:53,694 - INFO
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.0.5:5005 - 2024-04-21 16:55:17,213 - INFO
+[33mPress CTRL+C to quit[0m - 2024-04-21 16:55:17,213 - INFO
+opening home page - 2024-04-21 16:55:25,393 - INFO
+192.168.0.5 - - [21/Apr/2024 16:55:25] "GET / HTTP/1.1" 200 - - 2024-04-21 16:55:25,393 - INFO
+user_name is kkarankumar - 2024-04-21 16:55:44,252 - INFO
+e-mail is kkarankumar@gmail.com - 2024-04-21 16:55:44,252 - INFO
+password is kkarankumarpassword - 2024-04-21 16:55:44,252 - INFO
+192.168.0.5 - - [21/Apr/2024 16:55:44] "POST /register HTTP/1.1" 200 - - 2024-04-21 16:55:44,252 - INFO
+opening home page - 2024-04-21 16:56:04,665 - INFO
+192.168.0.5 - - [21/Apr/2024 16:56:04] "GET / HTTP/1.1" 200 - - 2024-04-21 16:56:04,665 - INFO
+user_name is kiran kumar - 2024-04-21 16:56:21,420 - INFO
+e-mail is kirankumark@gmail.com - 2024-04-21 16:56:21,420 - INFO
+password is kirankumarpassword - 2024-04-21 16:56:21,420 - INFO
+192.168.0.5 - - [21/Apr/2024 16:56:21] "POST /register HTTP/1.1" 200 - - 2024-04-21 16:56:21,420 - INFO

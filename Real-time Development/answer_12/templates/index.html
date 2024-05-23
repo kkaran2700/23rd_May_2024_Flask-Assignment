@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-time Data Update</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Real-time Data Update</h1>
+    <div id="data"></div>
+    <script>
+        $(document).ready(function() {
+            var socket = io();
+
+            socket.on('connect', function() {
+                console.log('Connected to server');
+            });
+
+            socket.on('message', function(msg) {
+                console.log(msg);
+            });
+
+            socket.on('update_data', function(data) {
+                $('#data').text(JSON.stringify(data));
+            });
+
+            // Simulate sending data to the server
+            setInterval(function() {
+                var data = { value: Math.random() };
+                socket.emit('update_data', data);
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
